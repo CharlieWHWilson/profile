@@ -1,0 +1,80 @@
+body {
+  background-color: D1FAFF;
+  font-family: Fredoka;
+  font-size: 16;
+  line-height: 1
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: rgb(1, 21, 52);
+  font-size: 25;
+  font-family: Poppins;
+}
+
+h2 {
+  color: 6A8EAE;
+  font-size: 18;
+}
+
+h3 {
+  color: 294C60
+}
+
+li {
+  color: 294C60
+}
+
+a {
+  text-decoration: none;
+}
+
+.card {
+  text-align: center;
+  background: white;
+  padding: 10px;
+  border: 2px solid lightgrey;
+  border-radius: 5px
+}
+#icon {
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px
+}
+
+#socials {
+  text-align: center;
+  color: black
+  padding: 20px;
+  font-size: 25;
+}
+
+#circle {
+  border-radius: 50%;
+  width: 80px
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
